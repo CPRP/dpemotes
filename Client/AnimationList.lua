@@ -1898,7 +1898,32 @@ DP.PropEmotes = {
   	["sprunk"] = {"mp_player_intdrink", "loop_bottle", "Sprunk", AnimationOptions =
    	{    Prop = "v_res_tt_can03", PropBone = 18905, PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
         	EmoteMoving = true, EmoteLoop = true, }},
-	
+	 --Jim-beanmachine
+    ["ecola"] = {"mp_player_intdrink", "loop_bottle", "E-cola", AnimationOptions =
+	{ Prop = "prop_ecola_can", PropBone = 18905, PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+		EmoteMoving = true, EmoteLoop = true, }},
+	["sprunk"] = {"mp_player_intdrink", "loop_bottle", "Sprunk", AnimationOptions =
+	{ Prop = "v_res_tt_can03", PropBone = 18905, PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+		EmoteMoving = true, EmoteLoop = true, }},
+	["crisps"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Crisps", AnimationOptions =
+	{ Prop = 'v_ret_ml_chips2', PropBone = 28422, PropPlacement = {0.01, -0.05, -0.1, 0.0, 0.0, 90.0},
+	   EmoteLoop = true, EmoteMoving = true, }},
+	["bmcoffee1"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Coffee2", AnimationOptions =
+	{ Prop = 'prop_fib_coffee', PropBone = 28422, PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+	   EmoteLoop = true, EmoteMoving = true, }},
+	["bmcoffee2"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Coffee3", AnimationOptions =
+	{ Prop = 'ng_proc_coffee_01a', PropBone = 28422, PropPlacement = {0.0, 0.0, -0.06, 0.0, 0.0, 0.0},
+	   EmoteLoop = true, EmoteMoving = true, }},
+	["bmcoffee3"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Coffee3", AnimationOptions =
+	{ Prop = 'v_club_vu_coffeecup', PropBone = 28422, PropPlacement = {0.0, 0.0, -0.06, 0.0, 0.0, 0.0},
+	   EmoteLoop = true, EmoteMoving = true, }},
+	["milk"] = {"mp_player_intdrink", "loop_bottle", "Milk", AnimationOptions =
+	{ Prop = "v_res_tt_milk", PropBone = 18905, PropPlacement = {0.10, 0.008, 0.07, 240.0, -60.0},
+		EmoteMoving = true, EmoteLoop = true, }},
+    ["donut2"] = {"mp_player_inteat@burger", "mp_player_int_eat_burger", "Donut2", AnimationOptions =
+    { Prop = 'prop_donut_02', PropBone = 18905, PropPlacement = {0.13, 0.05, 0.02, -50.0, 100.0, 270.0},
+       EmoteMoving = true, EmoteLoop = true, }},
+
 -----------------------------------------------------------------------------------------------------
 ------ This is an example of an emote with 2 props, pretty simple! ----------------------------------
 -----------------------------------------------------------------------------------------------------
