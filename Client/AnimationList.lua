@@ -1891,6 +1891,13 @@ DP.PropEmotes = {
 	["uwu13"] = {"mp_player_inteat@burger", "mp_player_int_eat_burger", "", AnimationOptions =
 	{ Prop = 'uwu_gdasik', PropBone = 18905, PropPlacement = {0.16, 0.08, 0.02, -225.0, 20.0, 60.0},
 		EmoteMoving = true, }},
+	    	--Jim-popsdiner
+   	["ecola"] = {"mp_player_intdrink", "loop_bottle", "E-cola", AnimationOptions =
+  	{    Prop = "prop_ecola_can", PropBone = 18905, PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+       		EmoteMoving = true, EmoteLoop = true, }},
+  	["sprunk"] = {"mp_player_intdrink", "loop_bottle", "Sprunk", AnimationOptions =
+   	{    Prop = "v_res_tt_can03", PropBone = 18905, PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+        	EmoteMoving = true, EmoteLoop = true, }},
 	
 -----------------------------------------------------------------------------------------------------
 ------ This is an example of an emote with 2 props, pretty simple! ----------------------------------
