@@ -1569,6 +1569,31 @@ DP.Emotes = {
        PtfxInfo = Config.Languages[Config.MenuLanguage]['pee'],
        PtfxWait = 3000,
    }},
+   -- ADDED FOR M-INSURANCE SCRIPT
+   ["health_insurance"] = {"anim@heists@humane_labs@finale@keycards", "ped_a_enter_loop", "Card", AnimationOptions =
+   {
+       Prop = "m-insurance_prop_card_health",
+       PropBone = 18905,
+       PropPlacement = {0.17, 0.03, 0.04, 1.0, 184.0, 0.0},
+       EmoteLoop = true,
+       EmoteMoving = true,
+   }},
+   ["car_insurance"] = {"anim@heists@humane_labs@finale@keycards", "ped_a_enter_loop", "Card", AnimationOptions =
+   {
+       Prop = "m-insurance_prop_card_vehicle",
+       PropBone = 18905,
+       PropPlacement = {0.17, 0.03, 0.04, 1.0, 184.0, 0.0},
+       EmoteLoop = true,
+       EmoteMoving = true,
+   }},
+   ["car_registration"] = {"anim@heists@humane_labs@finale@keycards", "ped_a_enter_loop", "Card", AnimationOptions =
+   {
+       Prop = "m-insurance_prop_card_vehicle2",
+       PropBone = 18905,
+       PropPlacement = {0.17, 0.03, 0.04, 1.0, 184.0, 0.0},
+       EmoteLoop = true,
+       EmoteMoving = true,
+   }},
 
 -----------------------------------------------------------------------------------------------------------
 ------ These are Scenarios, some of these dont work on women and some other issues, but still good to have.
